@@ -62,4 +62,13 @@ text-align:center;
     padding-bottom:0px;
 }
 
+.social-links>a{
+    float:right;
+    padding:3px;
+    font-size:25px;
+    color:#D8D8D8;
+}
 
+.social-links>a:hover{
+    color:white;
+}

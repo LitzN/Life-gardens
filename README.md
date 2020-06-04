@@ -60,7 +60,10 @@ Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
-background index page Photo by Creative Vix from Pexels
+background-image-1 Photo by Creative Vix from Pexels
+Design-image Image by <a href="https://pixabay.com/users/27707-27707/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=969989">Kevin Phillips</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=969989">Pixabay</a>
+Plant-image Image by <a href="https://pixabay.com/users/Larisa-K-1107275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=19830">Larisa Koshkina</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=19830">Pixabay</a>
+Build-image Image by <a href="https://pixabay.com/users/UweDigital-139992/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=260307">Uwe Jacobs</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=260307">Pixabay</a>
 The photos used in this site were obtained from ...
 Acknowledgements
 I received inspiration for this project from X

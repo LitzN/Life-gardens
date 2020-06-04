@@ -38,3 +38,11 @@ ul.navbar-nav.mr-auto{
 .nav-item{
 padding:10px;
 }
+
+.alert-warning{
+text-align:center;
+}
+
+.service-info{
+    padding-top:100px;
+}

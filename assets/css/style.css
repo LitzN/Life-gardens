@@ -20,6 +20,19 @@ height:100vh;
   margin:0 auto;
 }
 
+.contact-image{
+    height:100vh;
+  background: url("../images/contact-image.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto;
+}
 /*-----------------------------------------------Navigation bar*/
 header{
     position:absolute;
@@ -103,4 +116,9 @@ blockquote{
 
 div.col-lg-4.col-md-4.col-sm-12.col-xs-12{
     padding:0;
+}
+
+.jumbotron{
+    max-width:75vw;
+padding:20px;
 }

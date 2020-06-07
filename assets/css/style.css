@@ -118,6 +118,10 @@ div.col-lg-4.col-md-4.col-sm-12.col-xs-12{
     padding:0;
 }
 
+.quotes-row{
+    background-color:#A7D3A6;
+}
+
 .jumbotron{
     max-width:75vw;
 padding:20px;

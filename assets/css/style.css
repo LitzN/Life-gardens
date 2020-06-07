@@ -122,3 +122,23 @@ div.col-lg-4.col-md-4.col-sm-12.col-xs-12{
     max-width:75vw;
 padding:20px;
 }
+
+.page-headings{
+    font-weight:700;
+    text-align:center;
+}
+
+.service-info{
+    background-color:#B1E7D4;
+}
+
+.choose-us{
+    background-color:#AB95C6;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:150px;
+}
+
+.reason{
+    padding:0;
+}

@@ -35,9 +35,6 @@ height:100vh;
 }
 /*-----------------------------------------------Navigation bar*/
 
-header{
-    position:sticky;
-}
 
 header.container-fluid{
     padding-left:0;
@@ -66,12 +63,13 @@ div.container-fluid.alert.alert-warning{
     margin:0 auto;
     text-align:center;
 }
-
+/*--
 .footer{
     position:fixed;
     bottom:0;
     color:antiquewhite;
 }
+--*/
 .social-links>a{
     float:right;
     padding:3px;

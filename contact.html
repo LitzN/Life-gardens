@@ -9,42 +9,71 @@
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body class="contact-image">
-
     <header class="container-fluid contact-header">
+        <div class="row no-gutters"><div class="col">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Life Gardens</a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<div class="row no-gutters"><div class="col">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.html">Life Gardens</a>
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</div>
-</div>
- </header>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div></div>
+    </header>
 
     <section>
-        <container>
-        <div class="row"><h2>Contact Us</h2></div>
-        <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
+        <div class="jumbotron">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">Our dedicated service team is avaliable during all working hours
+            Call us today to discuss the work you require with an advisor or fill out the form 
+            below.
+            </p>
+            <hr class="my-4">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="select-service">Please choose the package you're interested in</label>
+                    <select class="form-control" id="select-service">
+                    <option>Full Package incl. maintenance</option>
+                    <option>Full Package excl. maintenance</option>
+                    <option>Design & Build</option>
+                    <option>Design & Plant</option>
+                    <option>Maintenance</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="select-size">Please choose your garden size</label>
+                    <select class="form-control" id="select-size">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    </select>
+                </div>
+                    <div class="form-group">
+                    <label for="contact-text-area">Please provide additional details of the project.</label>
+                    <textarea class="form-control" id="contact-text-area" rows="3"></textarea>
+                    </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        </container>
     </section>
 
 

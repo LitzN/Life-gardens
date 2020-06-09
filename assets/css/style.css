@@ -46,10 +46,6 @@ padding:10px;
 text-align:center;
 }
 
-div.container-fluid.alert.alert-warning{
-    margin:0;
-}
-
 /*--------------Services Page----------*/
 .service-info{
     padding-top:30px;
@@ -78,7 +74,7 @@ div.container-fluid.alert.alert-warning{
     color:white;
 }
 
-div.col-xl-3.col-lg-6.col-md-6.col-sm-12.col-xs-12{
+.service-card-div{
     padding-top:20px;
 }
 
@@ -101,7 +97,7 @@ blockquote{
   padding:10px;
 }
 
-div.col-lg-4.col-md-4.col-sm-12.col-xs-12{
+.gallery-pic-div{
     padding:0;
 }
 
@@ -161,3 +157,6 @@ color:white;
 .jumbotron-container{
     padding-bottom:40px;
 }
+
+
+

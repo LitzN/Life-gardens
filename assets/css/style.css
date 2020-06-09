@@ -15,21 +15,18 @@ height:100vh;
   background-size: cover;
 
   display:flex;
-  align-items:center;
   justify-content:center;
   margin:0 auto;
 }
 
 .contact-image{
-    height:100vh;
   background: url("../images/contact-image.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  display:flex;
-  align-items:center;
+  display:block;
   justify-content:center;
   margin:0 auto;
 }
@@ -63,13 +60,13 @@ div.container-fluid.alert.alert-warning{
     margin:0 auto;
     text-align:center;
 }
-/*--
+
 .footer{
     position:fixed;
     bottom:0;
     color:antiquewhite;
 }
---*/
+
 .social-links>a{
     float:right;
     padding:3px;
@@ -110,12 +107,6 @@ div.col-lg-4.col-md-4.col-sm-12.col-xs-12{
 
 .quotes-row{
     background-color:#A7D3A6;
-}
-
-.jumbotron{
-max-width:75vw;
-padding:20px;
-margin:0 auto;
 }
 
 .page-headings{
@@ -165,4 +156,8 @@ color:white;
 .gallery{
     background-color:#344966;
     padding-bottom:100px;
+}
+
+.jumbotron-container{
+    padding-bottom:40px;
 }

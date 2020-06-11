@@ -80,8 +80,9 @@ text-align:center;
 
 .gallery{
     padding-top:30px;
-    padding-bottom:30px;
     margin:0 auto;
+    background-color:#344966;
+    padding-bottom:100px;
 }
 
 div.col{
@@ -111,8 +112,14 @@ blockquote.blockquote{
 
 .page-headings{
     font-weight:700;
+    text-transform:uppercase;
+    color:white;
     text-align:center;
-    padding-bottom:20px;
+}
+
+.page-headings h1{
+    padding-top:20px;
+    padding-bottom:30px;
 }
 
 .service-info{
@@ -121,12 +128,6 @@ blockquote.blockquote{
 
 .service-cards{
     padding-bottom:40px;
-}
-
-.page-headings{
-padding-top:25px;
-text-transform:uppercase;
-color:white;
 }
 
 .choose-us{

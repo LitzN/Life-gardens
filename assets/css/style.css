@@ -91,6 +91,52 @@ text-align:center;
 .service-card-div{
     padding-top:20px;
 }
+.service-info{
+    background:url("../images/leaves1.jpg");
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.services-heading{
+    color:black;
+}
+
+.service-cards{
+    padding-bottom:40px;
+}
+
+.choose-us{
+    background-color:#A7D3A6;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:150px;
+}
+
+.choose-us h3{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.choose-us p{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.reasons{
+    background-color: #A7D3A6;
+    padding-bottom:100px;
+    text-align:center;
+}
+
+.reason i{
+    font-size:50px;
+    display:block;
+    padding-top:20px;
+    color:#344966;
+}
+
 /*-------------------------------------------Footer---*/
 .footer{
     position:fixed;
@@ -156,48 +202,6 @@ blockquote.blockquote{
     padding-bottom:30px;
 }
 
-.service-info{
-    background-color:mediumseagreen;
-}
-
-.service-cards{
-    padding-bottom:40px;
-}
-
-.choose-us{
-    background-color:#A7D3A6;
-    text-align:center;
-    padding-top:30px;
-    padding-bottom:150px;
-}
-
-.choose-us h3{
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-.choose-us p{
-    padding-left:30px;
-    padding-right:30px;
-}
-
-.reasons{
-    background-color: #A7D3A6;
-    padding-bottom:100px;
-    text-align:center;
-}
-
-.reason i{
-    font-size:50px;
-    display:block;
-    padding-top:20px;
-    color:#344966;
-}
-
-.gallery{
-    background-color:#344966;
-    padding-bottom:100px;
-}
 
 .jumbotron-container{
     padding-bottom:40px;

@@ -14,9 +14,12 @@
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
+<!--Container is used to create a full page image background, the bootstrap grid system is used for structure-->
 <container class="contact-image">
+<!--Header Section: Contains a collapsable navigation bar with the brand logo-->
 <header class="container-fluid contact-header">
     <div class="row no-gutters"><div class="col">
+    <!--Navigation bar : leading to the three site pages. Was edited from bootstrap code. Toggler icon used is from font awesome-->
         <nav class="navbar navbar-expand-lg">
              <a class="navbar-brand bg-image" href="index.html"><h2>Life Gardens   <i class="fas fa-tree"></i></h2></a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +42,7 @@
         </nav>
     </div></div>
     </header>
-
+<!--Form section: contains a jumbotron with a form created using bootstrap code-->
     <section class="jumbotron-container">
     <div class="row no-gutters">
     <div class="col-sm-12 col-md-6 offset-md-3 ">
@@ -50,6 +53,8 @@
             below.
             </p>
             <hr class="my-4">
+            <!--Form: contains field for email; two dropdown selection lists for garden size and package option of 
+            interest, there is also a text field where users can provide extra detail about their enquiry.-->
             <form>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
@@ -87,8 +92,9 @@
 
     </section>
 
-
-    <footer class="footer container-fluid">
+<!-- Footer section, contains four fontawesome icons with external links to social media 
+accounts for the business and a phone number for contact-->
+<footer class="footer container-fluid">
     <div class="row bg-dark">
         <div class="col-6">
         <p>Speak to an advisor today!  <i class="fas fa-phone-alt"></i>  020X XXXX XXX</p>
@@ -101,10 +107,13 @@
             <a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest-square"></i><span class="sr-only">pinterest</span></a>
         </div>
     </div>
-    </footer>
-    </container>
+</footer>
+</container>
+<!--This is a link to jquery from bootrstrap-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!--This is a link to popper.js from bootrstrap-->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!--This is a link to javascript from bootstrap-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

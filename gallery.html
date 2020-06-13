@@ -14,10 +14,12 @@
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-
+<!--Header Section: Contains a collapsable navigation bar with the brand logo and an alert with a link to 
+the contact page-->
  <header class="container-fluid">
     <div class="row no-gutters">
         <div class="col">
+        <!--Navigation bar : leading to the three site pages. Was edited from bootstrap code. Toggler icon used is from font awesome-->
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html"><h2>Life Gardens   <i class="fas fa-tree"></i></h2></a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,14 +40,15 @@
                     </ul>
                 </div>    
             </nav>
-
+        <!--Alert: contains link to contact page where users can fill in a form to give details of the
+            work they require-->
             <div class="container-fluid alert alert-warning m-0" role="alert">
                 Find out what Life Gardens can create for you, <a href="contact.html" class="alert-link">Speak to an advisor today!</a>
             </div>
         </div>
     </div>
  </header>
-
+<!--Gallery Page: Contains two rows of images and a row of blockquote cusotmer reviews-->
  <section>
     <div class="container-fluid gallery">
         <div class=" no-gutters row">
@@ -53,15 +56,24 @@
                 <h1><strong>Gallery</strong></h1>
             </div>
         </div>
+    <!--Row 1 of images:displays company's previous work. Images used are from pixabay-->
         <div class="row">
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <!--flower-garden image by <a href="https://pixabay.com/users/zhugher-15594727/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5085356">zhugher</a> 
+            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5085356">Pixabay</a>-->
                 <img src="assets/images/flower-garden.jpg" class="img-fluid" alt="Stone paved garden with benches and a multicolor selection of plants"></div>
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <!--split-garden image by <a href="https://pixabay.com/users/krakowgardendesign-8671385/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346929">Marzenna Gaines</a> 
+            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346929">Pixabay</a>-->
                 <img src="assets/images/split-garden.jpg" class="img-fluid" alt="birds eye view of a modern split level garden with a seating area and large shrubs">
             </div>
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <!--greenhouse image by Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=691704">Free-Photos
+            </a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=691704">Pixabay</a>-->
                 <img src="assets/images/greenhouse.jpg" class="img-fluid" alt="inside a greenhouse"></div>
             </div>
+
+    <!--Row of Quotes: using bootstrap classes for styling -->
         <div class="row quotes-row">
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12">
               <blockquote class="blockquote">
@@ -86,24 +98,32 @@
                     </blockquote>
             </div>
         </div>
+    <!--Row 2 of images: displays company's previous work. Images from pixabay-->
         <div class="row">
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div modern">
+            <!--modern image by <a href="https://pixabay.com/users/AndyG-144138/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Andy Giraud</a> 
+            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Pixabay</a>-->
                 <img src="assets/images/modern.jpg" class="img-fluid" alt="Paved garden with a fireplace and seating area"></div>
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <!--patio image by<a href="https://pixabay.com/users/StockSnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">StockSnap</a>
+             from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">Pixabay</a>-->
                 <img src="assets/images/patio.jpg" class="img-fluid" alt="Seating area in garden decorated with plant troughs and pots">
             </div>
             <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <!--arch image by <a href="https://pixabay.com/users/JillWellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Jill Wellington</a> 
+            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Pixabay</a>-->
                 <img src="assets/images/arch.jpg" class="img-fluid" alt="Trellis arch entrance of a garden with flowers growing through">
             </div>
         </div>
     </div>
 </section>
 
-
+<!-- Footer section, contains four fontawesome icons with external links to social media 
+accounts for the business and a phone number for contact-->
 <footer class="footer container-fluid">
     <div class="row bg-dark">
         <div class="col-6">
-            <p>Speak to an advisor today!  <i class="fas fa-phone-alt"></i>  020X XXXX XXX</p>
+            <p>Speak to an advisor today!  <i class="fas fa-phone-alt"></i>  0800 555 5555</p>
         </div>
         
         <div class="social-links col-6">
@@ -114,9 +134,11 @@
         </div>
     </div>
 </footer>
-    
+<!--This is a link to jquery from bootrstrap-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!--This is a link to popper.js from bootrstrap-->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!--This is a link to javascript from bootstrap-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

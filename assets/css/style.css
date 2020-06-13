@@ -14,7 +14,7 @@ background: url("../images/healthy-garden.jpg") no-repeat top left fixed;
   -o-background-size: cover;
   background-size: cover;
 
-  display:flex;
+  display:block;
   justify-content:center;
   margin:0 auto;
 }
@@ -86,6 +86,7 @@ text-align:center;
 .card{
     margin:0 auto;
     text-align:center;
+    border-width:5px;
 }
 
 .service-card-div{
@@ -110,6 +111,7 @@ text-align:center;
 .choose-us{
     background-color:#A7D3A6;
     text-align:center;
+    color:black;
     padding-top:30px;
     padding-bottom:150px;
 }
@@ -120,8 +122,8 @@ text-align:center;
 }
 
 .choose-us p{
-    padding-left:30px;
-    padding-right:30px;
+    padding-left:40px;
+    padding-right:40px;
 }
 
 .reasons{

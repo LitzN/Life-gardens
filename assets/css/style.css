@@ -1,13 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
+/*----------General-------*/
 body{
     font-family: 'Manrope', sans-serif;
 }
+.page-headings{
+    font-family:'Lobster',cursive;
+    font-weight:700;
+    color:white;
+    text-align:center;
+    letter-spacing:2px;
+}
 
+.page-headings h1{ 
+    padding-top:20px;
+    padding-bottom:30px;
+}
 
-/*----------------------------------------------------------Images*/
+.bg-image-text{
+    color:white;
+}
+
+/*--------------------------------------------------Backgroud Images*/
 .bg-image-1{
 height:100vh;
+/*--healthy-garden image from --*/
 background: url("../images/healthy-garden.jpg") no-repeat top left fixed;
 -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,6 +35,7 @@ background: url("../images/healthy-garden.jpg") no-repeat top left fixed;
 }
 
 .contact-image{
+/*--Contact-image from --*/
   background: url("../images/contact-image.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,7 +47,6 @@ background: url("../images/healthy-garden.jpg") no-repeat top left fixed;
   margin:0 auto;
 }
 /*-----------------------------------------------Navigation bar*/
-
 
 header.container-fluid{
     padding-left:0;
@@ -51,6 +66,7 @@ header.container-fluid{
 .nav-link{
     text-decoration:none;
     color:black;
+    text-align:center;
 }
 
 .nav-link:hover{
@@ -59,16 +75,6 @@ header.container-fluid{
     text-decoration:none;
 }
 
-.index-heading{
-    font-family: 'Lobster', cursive;
-    color:seashell;
-    padding:30px;
-}
-
-.bg-image{
-    color:white;
-    
-}
 .nav-item{
 padding:10px;
 }
@@ -76,13 +82,53 @@ padding:10px;
 .alert-warning{
 text-align:center;
 }
+/*-------------------------------------------Footer---*/
+.footer{
+    position:fixed;
+    bottom:0;
+    color:antiquewhite;
+}
 
-/*--------------Services Page----------*/
+.social-links>a{
+    float:right;
+    padding:3px;
+    font-size:25px;
+    color:#D8D8D8;
+}
+
+.social-links>a:hover{
+    color:white;
+}
+
+/*---------------------------------------------------Index Page------*/
+.index-heading{
+    font-family: 'Lobster', cursive;
+    color:seashell;
+    padding:30px;
+    text-align:center;
+}
+
+.nav-link.index-nav-link{
+    font-weight:bolder;
+    text-decoration:none;
+    color:white;
+    text-align:right;
+}
+/*---------------------------------------------------Services Page----*/
+
 .service-info{
+    background:url("../images/ivy.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     padding-top:30px;
     padding-bottom:30px;
 }
 
+
+/*----------Cards-----*/
 .card{
     margin:0 auto;
     text-align:center;
@@ -92,22 +138,12 @@ text-align:center;
 .service-card-div{
     padding-top:20px;
 }
-.service-info{
-    background:url("../images/ivy.jpg");
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.services-heading{
-    color:white;
-}
-
-.service-cards{
+.service-cards-row{
     padding-bottom:40px;
 }
 
+/*-------------Process section-------*/
 .process{
     background:white;
     text-align:center;
@@ -140,6 +176,7 @@ background:#6ECF9A;
 background:#A8E2C2;
 }
 
+/*-----------Choose us section-------*/
 .choose-us{
     background-color:#A7D3A6;
     text-align:center;
@@ -167,39 +204,8 @@ color:gray;
     text-decoration:none;
 }
 
-.reasons{
-    background-color: #A7D3A6;
-    padding-bottom:100px;
-    text-align:center;
-}
 
-.reason i{
-    font-size:50px;
-    display:block;
-    padding-top:20px;
-    color:#344966;
-}
-
-/*-------------------------------------------Footer---*/
-.footer{
-    position:fixed;
-    bottom:0;
-    color:antiquewhite;
-}
-
-.social-links>a{
-    float:right;
-    padding:3px;
-    font-size:25px;
-    color:#D8D8D8;
-}
-
-.social-links>a:hover{
-    color:white;
-}
-
-
-
+/*---------------------------------------------------Gallery Page------*/
 .gallery{
     padding-top:30px;
     margin:0 auto;
@@ -207,20 +213,12 @@ color:gray;
     padding-bottom:100px;
 }
 
-div.col{
-    padding:0;
-    text-align:center;
-}
-
-blockquote{
+.blockquote{
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  padding:10px;
-}
-
-blockquote.blockquote{
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding:10px;
     font-size:1em;
 }
 
@@ -232,26 +230,8 @@ blockquote.blockquote{
     background-color:#A7D3A6;
 }
 
-.page-headings{
-    font-weight:700;
-    color:white;
-    text-align:center;
-    letter-spacing:2px;
-}
 
-.page-headings h1{
-    font-family:'Lobster',cursive;
-    padding-top:20px;
-    padding-bottom:30px;
-}
-
-
+/*-----------Contact page------*/
 .jumbotron-container{
     padding-bottom:40px;
-}
-
-
-
-.test {
-    color:White;
 }

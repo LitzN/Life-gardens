@@ -93,7 +93,7 @@ text-align:center;
     padding-top:20px;
 }
 .service-info{
-    background:url("../images/leaves1.jpg");
+    background:url("../images/ivy.jpg");
       -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -101,11 +101,43 @@ text-align:center;
 }
 
 .services-heading{
-    color:black;
+    color:white;
 }
 
 .service-cards{
     padding-bottom:40px;
+}
+
+.process{
+    background:white;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.process-heading{
+    font-family:'Lobster',cursive;
+    padding-top:20px;
+}
+.steps{
+    text-align:center;
+}
+.steps-icon{
+    font-size:40px;
+}
+.steps p{
+    padding:10px;
+}
+.step-1{
+    background:mediumseagreen;
+}
+
+.step-2{
+background:#6ECF9A;
+}
+
+.step-3{
+background:#A8E2C2;
 }
 
 .choose-us{
@@ -113,7 +145,7 @@ text-align:center;
     text-align:center;
     color:black;
     padding-top:30px;
-    padding-bottom:150px;
+    padding-bottom:60px;
 }
 
 .choose-us h3{
@@ -124,6 +156,15 @@ text-align:center;
 .choose-us p{
     padding-left:40px;
     padding-right:40px;
+}
+
+.choose-us a{
+color:gray;
+}
+
+.choose-us a:hover{
+    color:white;
+    text-decoration:none;
 }
 
 .reasons{

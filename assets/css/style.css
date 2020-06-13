@@ -21,7 +21,7 @@ body{
 
 /*--------------------------------------------------Backgroud Images*/
 .bg-image-1{
-height:100vh;
+min-height:100vh;
 /*--healthy-garden image from --*/
 background: url("../images/healthy-garden.jpg") no-repeat top left fixed;
 -webkit-background-size: cover;
@@ -113,6 +113,19 @@ text-align:center;
     text-decoration:none;
     color:white;
     text-align:right;
+}
+
+.index-info{
+    background:rgba(00,00,00, 0.7);
+    color:white;
+    font-family:'Lobster';
+    padding:20px;
+}
+
+@media screen and (min-width: 601px) {
+  .index-text {
+    font-size:35px;
+  }
 }
 /*---------------------------------------------------Services Page----*/
 

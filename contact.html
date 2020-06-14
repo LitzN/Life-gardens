@@ -13,9 +13,8 @@
 <!--The link below is to the custom css written for the project-->
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
-<body>
-<!--Container is used to create a full page image background, the bootstrap grid system is used for structure-->
-<container class="contact-image">
+<!--Body is used to create a full page image background, the bootstrap grid system is used for structure-->
+<body class="contact-image">
 <!--Header Section: Contains a collapsable navigation bar with the brand logo-->
 <header class="container-fluid contact-header">
     <div class="row no-gutters"><div class="col">
@@ -81,7 +80,7 @@
                 </div>
                     <div class="form-group">
                     <label for="contact-text-area">Please provide additional details of the project.</label>
-                    <textarea class="form-control" id="contact-text-area" rows="3"></textarea>
+                    <textarea class="form-control" id="contact-text-area" rows="3" required></textarea>
                     </div>
                 <div class="text-center">
                 <button type="submit" class="btn btn-primary">Submit</button></div>
@@ -108,7 +107,7 @@ accounts for the business and a phone number for contact-->
         </div>
     </div>
 </footer>
-</container>
+
 <!--This is a link to jquery from bootrstrap-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <!--This is a link to popper.js from bootrstrap-->

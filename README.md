@@ -24,6 +24,9 @@ The Contact page includes a form to be filled out in order to start the process,
 
 ### **Wireframes**
 
+Wireframes for this project were created on Balsamiq. [View wireframes](wireframes/wireframes.pdf)
+
+
 ## **Features** 
 
 #### **Index page**

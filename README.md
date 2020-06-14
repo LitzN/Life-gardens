@@ -51,6 +51,10 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
 * Strong positive background image motivates customer to take final step and get in touch with the business
 * Form for contact, allows users to get in touch with the company and provide the information necessary to start the process. 
 
+### **Features left to implement**
+
+* Add a message when form is filled correctly to tell user their form has been submitted.
+
 ## **Technologies Used**
 * **HTML** was used to build all the pages for the site.
 * **CSS** was used to style the html.
@@ -129,18 +133,14 @@ Google developer tools were used to view all pages on different viewports and as
 
 ## **Bugs**
 ### **Fixed**
-* The rows on the services page were not all tagged with the 'no gutters' class causing unexpected margins creating
-a horizontal scroll bar and white strip to appear on the side. 
+* A horizontal scroll bar and white strip to appear on the side of the services page, adding the no gutters class 
+consistently removed this
 ### **Not yet fixed**
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+* On the smallest device in developer tools (mobile-320px), the cards on the services page are appearing at full width of the screen
+whereas the rest of the page does not and is compressed.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+## **Deployment**
 
 Credits
 Content

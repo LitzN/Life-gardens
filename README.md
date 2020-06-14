@@ -5,6 +5,14 @@ This website is for attracting and informing potential customers about the servi
 The website should also ensure customers feel the business is trustworthy, reliable and affordable as this is 
 often an issue when choosing a building service.  
 
+Project consists of four pages. The index page makes the user familiar with the brand and location of the business and 
+contains navigation to the rest of the site. 'Services' is the first navigation link, on this page all information
+about the services provided is outlined as well as the procedure. Also on this page is a section describing why potential 
+customers should choose Life gardens, this section will link to the gallery page. The gallery page contains pictures 
+of previous work and customer testemonials. Lastly, the contact page will contain a form where users can make an enquiry
+about work they are looking to have done.
+
+
 ### **User stories and UX**
 
 * **As a prospective customer, I want to know what the company can provide me and whether they are suitable for the work I need.**
@@ -14,6 +22,7 @@ often an issue when choosing a building service.
 * __As a customer looking to have work done, I want to see previous work from the company so I can judge the quality and decide whether to use their services.__  
 
 * **As a returning customer deciding to engage with the company, I want to be able to initiate contact easily.**  
+
 
 ### **Wireframes**
 
@@ -45,9 +54,9 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
 ## **Technologies Used**
 * **HTML** was used to build all the pages for the site.
 * **CSS** was used to style the html.
-* **Bootstrap** was used to add responsive grid structure to the site.
-* **Fontawesome** was used to add icons throughout the site.
-* **Google fonts** was used for the main font style used throughout the site.
+* [**Bootstrap**](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css) was used to add responsive grid structure to the site.
+* [**Fontawesome**](https://kit.fontawesome.com/c2af92f582.js) was used to add icons throughout the site.
+* [**Google fonts**](https://fonts.googleapis.com/css2?family=Lobster&display=swap) was used for the main font style used throughout the site.
 * **W3C Validator** was used to check HTML for errors.
 * **Jigsaw validator** was used to check CSS for errors.
 
@@ -78,6 +87,14 @@ The Contact page includes a form to be filled out in order to start the process,
 I tested functionality by loading each page and checking the features detailed below work as planned.
 Google developer tools were used to view all pages on different viewports and assess responsive qualities.
 
+### **Site wide feactures**
+* **Functionality:**<br>
+	* Navigation links: All links direct to the named page. The background and text of the links change color when the mouse hovers over them. The brand name on the left changes font color on hovering and directs to the index page. On smaller screens the toggle button is functional. 
+	* Footer links: External links to social media accounts all open in a separate tab.
+* **Responsive Design:** <br>
+    * Navbar is collapsible on smaller screens, an icon leading to the links is used.
+
+
 ### **Index Page**
 * **Functionality:**<br>
 	* Navigation links: All links direct to the named page. Background of links changes to gray when the mouse hovers over them. On smaller screens the toggle button correctly displays navigation links.
@@ -88,19 +105,15 @@ Google developer tools were used to view all pages on different viewports and as
 
 ### **Services Page**
 * **Functionality:**<br>
-	* Navigation links: All links direct to the named page. The background and text of the links change color when the mouse hovers over them. The brand name on the left changes font color on hovering and directs to the index page. On smaller screens the toggle button is functional. 
 	* Alert link: is underlined on hovering and leads to the expected page.
 	* Link in the why choose us section changes color when the mouse hovers over it and leads to the page expected.
-	* Footer links: External links to social media accounts all open in a separate tab.
 * **Responsive Design:** <br>
 	* On Laptop/Tablet: Cards in the services information section are displayed two in a row.
     * On Mobile devices: Cards in the services information section are stacked, only showing one card per row.
 
 ### **Gallery Page**
 * **Functionality:**<br>
-	* Navigation links: All links direct to the named page. The background and text of the links change color when the mouse hovers over them. The brand name on the left changes color on hovering and directs to the index page. On smaller screens the toggle button is functional. 
 	* Alert link: is underlined on hovering and leads to the expected page.
-	* Footer links: External links to social media accounts all open in a separate tab.
 * **Responsive Design:** <br>
     * On Laptop/Tablet: A row of three images, followed by a row of blockquotes and another row of images below.
     * On Mobile devices: Images are stacked so they are still clearly visible on smaller screens and dividing lines appear between blockquotes to break them up. 
@@ -108,13 +121,17 @@ Google developer tools were used to view all pages on different viewports and as
 
 ### **Contact Page**
 * **Functionality:**<br>
-	* Navigation links: All links direct to the named page. The background and text of the links change color when the mouse hovers over them. The brand name on the left changes color on hovering and directs to the index page. On smaller screens the toggle button is functional. 
 	* Form: Email input field expects a valid email and displays alert when @ is omitted. Submission is not allowed without input into email and text fields.
-	* Footer links: External links to social media accounts all open in a separate tab.
 * **Responsive Design:** <br>
     * On Laptop/Tablet: Background image is clearly displayed with the contact form in the center of the screen.
-    * On Mobile devices: Contact form takes up all of the screen, with the background only appearing in the transparent navigation bar. This ensures the form is fully and clearly visible as it is the main purpose of the page.
+    * On Mobile devices: Contact form takes up all of the screen, with the background only appearing in the transparent navigation bar. 
+    This ensures the form is fully and clearly visible as it is the main purpose of the page.
 
+## **Bugs**
+### **Fixed**
+* The rows on the services page were not all tagged with the 'no gutters' class causing unexpected margins creating
+a horizontal scroll bar and white strip to appear on the side. 
+### **Not yet fixed**
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 

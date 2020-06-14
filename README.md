@@ -1,50 +1,50 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project.
+# **Life Gardens**  
 
-Essentially, this part is your sales pitch.
+My project is a website for a gardening company providing design, building and maintenance called Life Gardens. 
+This website is for attracting and informing potential customers about the services the business provides. 
+The website should also ensure customers feel the business is trustworthy, reliable and affordable as this is 
+often an issue when choosing a building service.  
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### **User stories and UX**
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+* **As a prospective customer, I want to know what the company can provide me and whether they are suitable for the work I need.** <br>
+    The services information section is created to address this, it informs clients of  the four areas of focus in the company “Design, Build, Plant and Maintenance” in a clear organised way. It is the first feature visible when the services page is visited.  
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+* __As a prospective customer who has never used a design/building company before, I want information on how the process works.__
+    The process section in the services page provides this information and is found below the services information as it is likely the next concern for a prospective client. It clearly describes the steps which need to be taken to enlist the company’s services.  
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+* __As a customer looking to have work done, I want to see previous work from the company so I can judge the quality and decide whether to use their services.__  
+    The Gallery page is created for this purpose, it provides images of previous work as well as testimonials to reassure new customers they will receive a quality service.
+The Why choose us section on the Services page also contains a link to the gallery, so users who have finished learning about the company are invited to view the work.  
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+* **As a returning customer deciding to engage with the company, I want to be able to initiate contact easily.**  
+    Contact is encouraged throughout the site through the alert under the navigation bar, which contains a link to the contact page and a message encouraging users to enquire.
+The contact number is displayed on the footer, so can be found at the end of each page.
+The Contact page includes a form to be filled out in order to start the process, there are fields for email, a few basic questions and a textbox for further information users wish to provide. Further details will be gathered by the company after this as too many questions on the form is likely to put off users.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### **Wireframes**
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## **Features** 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+#### **Index page**
+* Strong background of a garden will elicit positive feelings from customers and immediately gives the user an indication of what the business does.
+* Navigation bar for this page is transparent to ensure all focus is on the image and heading, the links are bolder to ensure visibility.
+* A large heading introduces the brand so it must stand out to the user, media queries were used to increase font size on larger screens for this purpose.
+* A few lines of text with basic information on what the company does and where they operate. The dark translucent background ensures the text is readable whilst maintaining the style of the page.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### **Services Page**
+* The first section provides information about the four main services offered in more detail in the form of cards, which break up the information in an attractive way by including relevant images. Customers understand what’s offered.
+* Section two, process, provides an explanation of what steps must be taken by the user to work with the company. 
+* Section three, why choose us, concludes the page with the key benefits of using the company and invites users to view the gallery page through a text link.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### **Gallery Page**
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+* Contains rows of images, customers can see examples of the work provided by the company. Reassurance is provided through the variety of projects in the images and by showing customers the quality they can expect.
+* Row of testimonials, shows the company is trustworthy. Contains positive quotes from customers who’ve used different packages.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### **Contact Page**
+* Strong positive background image motivates customer to take final step and get in touch with the business
+* Form for contact, allows users to get in touch with the company and provide the information necessary to start the process. 
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).

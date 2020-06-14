@@ -120,11 +120,18 @@ text-align:center;
     color:white;
     font-family:'Lobster';
     padding:20px;
+    text-align:center;
 }
 
 @media screen and (min-width: 601px) {
   .index-text {
     font-size:35px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .index-heading {
+    font-size:60px;
   }
 }
 /*---------------------------------------------------Services Page----*/

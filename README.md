@@ -144,8 +144,13 @@ whereas the rest of the page does not and is compressed.
 
 ## **Deployment**
 
-Credits
-Content
+The project was created on gitpod and pushed to the github repository 'Life-gardens' regularly. The 
+master branch of this repository was then used as a source for publishing to Github Pages.
+
+For deployed page, [click here](https://litzn.github.io/Life-gardens/).
+
+## **Credits**
+### **Content**
 The text for section Y was copied from the Wikipedia article Z
 Media
 background-image-1 Photo by Creative Vix from Pexels

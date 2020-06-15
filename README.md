@@ -135,9 +135,11 @@ Google developer tools were used to view all pages on different viewports and as
 ## **Bugs**
 ### **Fixed**
 * A horizontal scroll bar and white strip to appear on the side of the services page, adding the no gutters class 
-consistently removed this
+consistently removed this problem on all screen widths except the smallest.
+* On the smallest device in developer tools (mobile-320px), the cards on the services page are appearing at full width of the screen
+whereas the rest of the page does not and is compressed. This was fixed by reducing the width of the cards. 
 * Footer on services page was not taking up the full width of the page, removing the no gutters class from
-the fixed footer fixed the problem.
+the fixed footer solved the problem.
 ### **Not yet fixed**
 * On the smallest device in developer tools (mobile-320px), the cards on the services page are appearing at full width of the screen
 whereas the rest of the page does not and is compressed.

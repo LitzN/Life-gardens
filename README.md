@@ -33,7 +33,7 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
 
 #### **Index page**
 * Strong background of a garden will elicit positive feelings from customers and immediately gives the user an indication of what the business does.
-* Navigation bar for this page is transparent to ensure all focus is on the image and heading, the links are bolder to ensure visibility.
+* Navigation bar for this page is transparent to ensure all focus is on the image and heading, the links are bolder and have a dark background under the text to ensure visibility.
 * A large heading introduces the brand so it must stand out to the user, media queries were used to increase font size on larger screens for this purpose.
 * A few lines of text with basic information on what the company does and where they operate. The dark translucent background ensures the text is readable whilst maintaining the style of the page.
 
@@ -44,19 +44,20 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
 
 #### **Gallery Page**
 
-* Contains rows of images, customers can see examples of the work provided by the company. Reassurance is provided through the variety of projects in the images and by showing customers the quality they can expect.
+* Contains rows of images, customers can see examples of previous work from the company. Reassurance is provided through the variety of projects in the images and by showing customers the quality they can expect.
 * Row of testimonials, shows the company is trustworthy. Contains positive quotes from customers who’ve used different packages.
 
 #### **Contact Page**
 * Strong positive background image motivates customer to take final step and get in touch with the business
+* Company contact number is displayed as a link which when pressed will call the number, making contact easier.
 * Form for contact, allows users to get in touch with the company and provide the information necessary to start the process.
-* The link to the company contact number when pressed will call the number, making contact easier.
 
 ### **Features left to implement**
 
 * Add a message when form is filled correctly to tell user their form has been submitted.
 
 ## **Technologies Used**
+
 * **HTML** was used to build all the pages for the site.
 * **CSS** was used to style the html.
 * [**Bootstrap**](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css) was used to add responsive grid structure to the site.
@@ -74,20 +75,26 @@ Sites used for validation: [Jigsaw](https://jigsaw.w3.org/css-validator/) , [W3C
 
 ### **Testing whether needs in user stories have been addressed**
 * **As a prospective customer, I want to know what the company can provide me and whether they are suitable for the work I need.** <br>
-    The services information section is created to address this, it informs clients of  the four areas of focus in the company “Design, Build, Plant and Maintenance” in a clear organised way. It is the first feature visible when the services page is visited.  
+    The index page briefly explains the services provided so users immediately know what the business does.
+    Services is the first link in the navigation. The services page informs users of  the four areas of focus in the company in a clear organised way.
+    It is the first feature visible when the services page is visited.<br>
+    ![index-page](/screenshots/index-page.png)
+    ![services-page-1](/screenshots/services-page-1.png)
 
 * __As a prospective customer who has never used a design/building company before, I want information on how the process works.__
-    The process section in the services page provides this information and is found below the services information as it is likely the next concern for a prospective client. It clearly describes the steps which need to be taken to enlist the company’s services.  
+    The process section in the services page provides this information and is found below the services information as it is likely the next concern for a prospective client. It clearly describes the steps which need to be taken to enlist the company’s services.<br>
+![services-page-2](/screenshots/services-page-2.png)
 
 * __As a customer looking to have work done, I want to see previous work from the company so I can judge the quality and decide whether to use their services.__  
     The Gallery page is created for this purpose, it provides images of previous work as well as testimonials to reassure new customers they will receive a quality service.
-The Why choose us section on the Services page also contains a link to the gallery, so users who have finished learning about the company are invited to view the work.  
-
+The Why choose us section on the Services page (pictured above) also contains a link to the gallery, so users who have finished learning about the company are invited to view the work.<br>
+![gallery-page](/screenshots/gallery-page.png)
 * **As a returning customer deciding to engage with the company, I want to be able to initiate contact easily.**  
     Contact is encouraged throughout the site through the alert under the navigation bar, which contains a link to the contact page and a message encouraging users to enquire.
 The contact number is displayed on the footer, so can be found at the end of each page.
-The Contact page includes a form to be filled out in order to start the process, there are fields for email, a few basic questions and a textbox for further information users wish to provide. Further details will be gathered by the company after this as too many questions on the form is likely to put off users.
-
+The Contact page includes a form to be filled out in order to start the process, there are fields for email, a few basic questions and a textbox for further information users wish to provide. 
+Further details will be gathered by the company after this as too many questions on the form is likely to put off users.<br>
+![contact-page](/screenshots/contact-page.png)
 
 ### **Functionality and Responsiveness**
  

@@ -102,6 +102,14 @@ text-align:center;
     color:white;
 }
 
+.phone-link{
+    color:lightgray;
+}
+
+.phone-link:hover{
+    color:gray;
+}
+
 /*---------------------------------------------------Index Page------*/
 .index-heading{
     font-family: 'Lobster', cursive;
@@ -246,4 +254,8 @@ color:gray;
 /*-----------Contact page------*/
 .jumbotron-container{
     padding-bottom:40px;
+}
+
+.contact-phone{
+    color:darkgray;
 }

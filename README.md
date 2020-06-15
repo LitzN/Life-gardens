@@ -155,7 +155,8 @@ the fixed footer solved the problem.
 ## **Deployment**
 
 The project was created on gitpod and pushed to the github repository 'Life-gardens' regularly. The 
-master branch of this repository was then used as a source for publishing to Github Pages.
+master branch of this repository was then used as a source for publishing to Github Pages. The development 
+version is the same as the deployed version.
 
 ### **Steps taken to deploy**
 * Open Github

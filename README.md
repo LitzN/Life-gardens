@@ -49,7 +49,8 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
 
 #### **Contact Page**
 * Strong positive background image motivates customer to take final step and get in touch with the business
-* Form for contact, allows users to get in touch with the company and provide the information necessary to start the process. 
+* Form for contact, allows users to get in touch with the company and provide the information necessary to start the process.
+* The link to the company contact number when pressed will call the number, making contact easier.
 
 ### **Features left to implement**
 
@@ -62,6 +63,7 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
     * [jquery](https://code.jquery.com/jquery-3.5.1.slim.min.js), [javascript](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js) and [js popper](https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js) was used from bootstrap to make some components functional.
 * [**Fontawesome**](https://kit.fontawesome.com/c2af92f582.js) was used to add icons throughout the site.
 * [**Google fonts**](https://fonts.googleapis.com/css2?family=Lobster&display=swap) was used for the main font style used throughout the site.
+* [**Free formatter**](https://www.freeformatter.com/) was used for formatting.
 * **W3C Validator** was used to check HTML for errors.
 * **Jigsaw validator** was used to check CSS for errors.
 
@@ -89,13 +91,13 @@ The Contact page includes a form to be filled out in order to start the process,
 
 ### **Functionality and Responsiveness**
  
-I tested functionality by loading each page and checking the features detailed below work as planned.
+I tested functionality by loading each page and checking the features detailed below manually to ensure they work as planned.
 Google developer tools were used to view all pages on different viewports and assess responsive qualities.
 
 ### **Site wide feactures**
 * **Functionality:**<br>
-	* Navigation links: All links direct to the named page. The background and text of the links change color when the mouse hovers over them. The brand name on the left changes font color on hovering and directs to the index page. On smaller screens the toggle button is functional. 
-	* Footer links: External links to social media accounts all open in a separate tab.
+	* Navigation links: All links direct to the named page when pressed. The background and text of the links change color when the mouse hovers over them. The brand name on the left changes font color on hovering and directs to the index page. On smaller screens the toggle button is functional. 
+	* Footer links: External links to social media accounts all open in a separate tab. Phone link in footer calls the company number when pressed, link changes color on hovering.
 * **Responsive Design:** <br>
     * Navbar is collapsible on smaller screens, an icon leading to the links is used.
 
@@ -141,14 +143,20 @@ whereas the rest of the page does not and is compressed. This was fixed by reduc
 * Footer on services page was not taking up the full width of the page, removing the no gutters class from
 the fixed footer solved the problem.
 ### **Not yet fixed**
-* On the smallest device in developer tools (mobile-320px), the cards on the services page are appearing at full width of the screen
-whereas the rest of the page does not and is compressed.
 
 
 ## **Deployment**
 
 The project was created on gitpod and pushed to the github repository 'Life-gardens' regularly. The 
 master branch of this repository was then used as a source for publishing to Github Pages.
+
+### **Steps taken to deploy**
+* Open Github
+* Open Life-gardens from the listed repositories.
+* Under the repository name, select the settings option.
+* Find the GitHub pages section
+* Select the source button and choose master branch, page automatically reloads.
+* Find the GitHub pages section again to find the link to the deployed site.
 
 For deployed page, [click here](https://litzn.github.io/Life-gardens/).
 

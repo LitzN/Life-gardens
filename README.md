@@ -59,6 +59,7 @@ Wireframes for this project were created on Balsamiq. [View wireframes](wirefram
 * **HTML** was used to build all the pages for the site.
 * **CSS** was used to style the html.
 * [**Bootstrap**](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css) was used to add responsive grid structure to the site.
+    * [jquery](https://code.jquery.com/jquery-3.5.1.slim.min.js), [javascript](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js) and [js popper](https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js) was used from bootstrap to make some components functional.
 * [**Fontawesome**](https://kit.fontawesome.com/c2af92f582.js) was used to add icons throughout the site.
 * [**Google fonts**](https://fonts.googleapis.com/css2?family=Lobster&display=swap) was used for the main font style used throughout the site.
 * **W3C Validator** was used to check HTML for errors.
@@ -150,21 +151,7 @@ master branch of this repository was then used as a source for publishing to Git
 For deployed page, [click here](https://litzn.github.io/Life-gardens/).
 
 ## **Credits**
-### **Content**
-The text for section Y was copied from the Wikipedia article Z
-Media
-background-image-1 Photo by Creative Vix from Pexels
-contact-image Image by <a href="https://pixabay.com/users/DreamyArt-512893/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=571940">Selling of my photos with StockAgencies is not permitted</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=571940">Pixabay</a>
-Design-image Image by <a href="https://pixabay.com/users/27707-27707/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=969989">Kevin Phillips</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=969989">Pixabay</a>
-Plant-image Image by <a href="https://pixabay.com/users/Larisa-K-1107275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=19830">Larisa Koshkina</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=19830">Pixabay</a>
-Build-image Image by <a href="https://pixabay.com/users/UweDigital-139992/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=260307">Uwe Jacobs</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=260307">Pixabay</a>
-GALLERY IMAGES
-1 Image by <a href="https://pixabay.com/users/zhugher-15594727/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5085356">zhugher</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5085356">Pixabay</a>
-2 Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=691704">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=691704">Pixabay</a>
-3 Image by Image by <a href="https://pixabay.com/users/krakowgardendesign-8671385/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346929">Marzenna Gaines</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346929">Pixabay</a>
-arch Image by <a href="https://pixabay.com/users/JillWellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Jill Wellington</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Pixabay</a>
-Patio Image by <a href="https://pixabay.com/users/StockSnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">StockSnap</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">Pixabay</a>
-Modern Image by <a href="https://pixabay.com/users/AndyG-144138/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Andy Giraud</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Pixabay</a>
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+### **Content**  
+The text throughout the site was written specifically for this project. 
+### **Media:**
+* Images throughout site were obtained from [Pixabay:](https://pixabay.com/)

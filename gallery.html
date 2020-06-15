@@ -50,6 +50,7 @@ the contact page-->
  </header>
 <!--Gallery Page: Contains two rows of images and a row of blockquote cusotmer reviews-->
  <section>
+ <container-fluid>
     <div class="container-fluid gallery">
         <div class=" no-gutters row">
             <div class="col page-headings">
@@ -58,30 +59,47 @@ the contact page-->
         </div>
     <!--Row 1 of images:displays company's previous work. Images used are from pixabay-->
         <div class="row">
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <div class="col-md-4  col-sm-12 gallery-pic">
             <!--flower-garden image by <a href="https://pixabay.com/users/zhugher-15594727/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5085356">zhugher</a> 
             from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5085356">Pixabay</a>-->
                 <img src="assets/images/flower-garden.jpg" class="img-fluid" alt="Stone paved garden with benches and a multicolor selection of plants"></div>
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <div class="col-md-4  col-sm-12 gallery-pic">
             <!--split-garden image by <a href="https://pixabay.com/users/krakowgardendesign-8671385/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346929">Marzenna Gaines</a> 
             from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346929">Pixabay</a>-->
                 <img src="assets/images/split-garden.jpg" class="img-fluid" alt="birds eye view of a modern split level garden with a seating area and large shrubs">
             </div>
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
+            <div class="col-md-4  col-sm-12 gallery-pic">
             <!--greenhouse image by Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=691704">Free-Photos
             </a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=691704">Pixabay</a>-->
                 <img src="assets/images/greenhouse.jpg" class="img-fluid" alt="inside a greenhouse"></div>
             </div>
 
-    <!--Row of Quotes: using bootstrap classes for styling -->
+    <!--Row 2 of images: displays company's previous work. Images from pixabay-->
+        <div class="row">
+            <div class="col-md-4  col-sm-12 gallery-pic modern">
+            <!--modern image by <a href="https://pixabay.com/users/AndyG-144138/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Andy Giraud</a> 
+            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Pixabay</a>-->
+                <img src="assets/images/modern.jpg" class="img-fluid" alt="Paved garden with a fireplace and seating area"></div>
+            <div class="col-md-4  col-sm-12 gallery-pic">
+            <!--patio image by<a href="https://pixabay.com/users/StockSnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">StockSnap</a>
+             from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">Pixabay</a>-->
+                <img src="assets/images/patio.jpg" class="img-fluid" alt="Seating area in garden decorated with plant troughs and pots">
+            </div>
+            <div class="col-md-4  col-sm-12 gallery-pic">
+            <!--arch image by <a href="https://pixabay.com/users/JillWellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Jill Wellington</a> 
+            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Pixabay</a>-->
+                <img src="assets/images/arch.jpg" class="img-fluid" alt="Trellis arch entrance of a garden with flowers growing through">
+            </div>
+        </div>
+            <!--Row of Quotes: using bootstrap classes for styling -->
         <div class="row quotes-row">
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12">
+            <div class="col-md-4  col-sm-12">
               <blockquote class="blockquote">
                     <p class="mb-0">"Life gardens transformed my small plain patio into a cozy natural space."</p>
                     <footer class="blockquote-footer">Nina <cite title="Source Title">Full Package</cite></footer>
             </blockquote>      
             </div>
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12">
+            <div class="col-md-4  col-sm-12">
             <hr class="d-block d-md-none">
             <blockquote class="blockquote">
                     <p class="mb-0">"My new garden is like a paradise, I never want to be inside now!"</p>
@@ -89,7 +107,7 @@ the contact page-->
             </blockquote>
            
                 </div>
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12">
+            <div class="col-md-4  col-sm-12">
             <hr class="d-block d-md-none">
                     <blockquote class="blockquote">
                         <p class="mb-0">"I never thought it would be possible for me to have a greenhouse,
@@ -98,24 +116,8 @@ the contact page-->
                     </blockquote>
             </div>
         </div>
-    <!--Row 2 of images: displays company's previous work. Images from pixabay-->
-        <div class="row">
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div modern">
-            <!--modern image by <a href="https://pixabay.com/users/AndyG-144138/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Andy Giraud</a> 
-            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=254716">Pixabay</a>-->
-                <img src="assets/images/modern.jpg" class="img-fluid" alt="Paved garden with a fireplace and seating area"></div>
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
-            <!--patio image by<a href="https://pixabay.com/users/StockSnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">StockSnap</a>
-             from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628075">Pixabay</a>-->
-                <img src="assets/images/patio.jpg" class="img-fluid" alt="Seating area in garden decorated with plant troughs and pots">
-            </div>
-            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12 gallery-pic-div">
-            <!--arch image by <a href="https://pixabay.com/users/JillWellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Jill Wellington</a> 
-            from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1543673">Pixabay</a>-->
-                <img src="assets/images/arch.jpg" class="img-fluid" alt="Trellis arch entrance of a garden with flowers growing through">
-            </div>
-        </div>
     </div>
+</container-fluid>
 </section>
 
 <!-- Footer section, contains four fontawesome icons with external links to social media 

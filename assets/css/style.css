@@ -20,29 +20,31 @@ body{
 }
 
 /*--------------------------------------------------Backgroud Images*/
+
 .bg-image-1{
 min-height:100vh;
-/*--healthy-garden image from --*/
+/*--healthy-garden image from pixabay*/
 background: url("../images/healthy-garden.jpg") no-repeat top left fixed;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display:block;
-  justify-content:center;
-  margin:0 auto;
 }
 
 .contact-image{
-/*--Contact-image from --*/
+/*--Contact-image from pixabay*/
   background: url("../images/contact-image.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
 
-  display:block;
+/*--Service info image from pixabay*/
+.service-info{
+    background:url("../images/ivy.jpg");
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.bg-image{
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      display:block;
   justify-content:center;
   margin:0 auto;
 }
@@ -114,11 +116,13 @@ text-align:center;
     color:white;
     text-align:right;
 }
-
+.bg-index-nav{
+    background:rgba(00,00,00, 0.7);
+}
 .index-info{
     background:rgba(00,00,00, 0.7);
     color:white;
-    font-family:'Lobster';
+    font-family:'Lobster', cursive;
     padding:20px;
     text-align:center;
 }
@@ -127,27 +131,12 @@ text-align:center;
   .index-text {
     font-size:35px;
   }
-}
-
-@media screen and (min-width: 601px) {
-  .index-heading {
+    .index-heading {
     font-size:60px;
   }
 }
+
 /*---------------------------------------------------Services Page----*/
-
-.service-info{
-    background:url("../images/ivy.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    padding-top:30px;
-    padding-bottom:30px;
-}
-
-
 /*----------Cards-----*/
 .card{
     margin:0 auto;
@@ -203,7 +192,7 @@ background:#A8E2C2;
     text-align:center;
     color:black;
     padding-top:30px;
-    padding-bottom:60px;
+    padding-bottom:100px;
 }
 
 .choose-us h3{

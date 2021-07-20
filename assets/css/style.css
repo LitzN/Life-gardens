@@ -284,3 +284,10 @@ header.container-fluid {
 .contact-phone {
 	color: darkgray;
 }
+
+/*----Media queries----*/
+@media only screen and (min-width: 768px){
+	.card {
+		width:22rem;
+	}
+}

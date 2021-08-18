@@ -301,6 +301,16 @@ header.container-fluid {
 	transform: rotateY(180deg);
 }
 
+.v-align-wrapper{
+	display:table;
+	height:inherit;
+}
+
+.v-align{
+	display:table-cell;
+	vertical-align: middle;
+}
+
 .quotes-row {
 	background-color: #A7D3A6;
 }

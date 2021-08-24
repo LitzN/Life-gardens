@@ -279,8 +279,8 @@ header.container-fluid {
     padding-right: 1rem;
 }
 
-.card-single:hover, .card-single:active{
-	transform:rotateY(180deg)
+.card-single:hover, .card-single:focus, .card-single:active{
+	transform:rotateY(180deg);
 }
 
 .card-front{

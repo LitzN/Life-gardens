@@ -313,6 +313,15 @@ header.container-fluid {
 	padding-bottom: 40px;
 }
 
+.contact-heading{
+	font-size:3rem;
+	text-align:center;
+}
+
+.lead{
+	font-size:1.25rem;
+}
+
 .contact-phone {
 	color: darkgray;
 }
@@ -336,5 +345,14 @@ header.container-fluid {
 
 	.card-single{
 		padding-bottom:70%;
+	}
+
+	.contact-heading{
+		font-size:2.5rem;
+		font-family: 'Lobster', cursive;
+	}
+
+	.lead{
+		font-size:1rem;
 	}
 }

@@ -280,6 +280,9 @@ header.container-fluid {
 }
 
 .flipCard{ 
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
 	transform: rotateY(180deg);
 }
 

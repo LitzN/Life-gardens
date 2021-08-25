@@ -179,20 +179,17 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       <script>
          const card_single = document.getElementById("card-single")
-         card_single.addEventListener("click", flipCard);
-         function flipCard() {
+         $(card_single).bind("click touchstart", function(){
             this.classList.toggle("flipCard");
-         }
+         });
          const card_single_1 = document.getElementById("card-single-1")
-         card_single_1.addEventListener("click", flipCard);
-         function flipCard() {
+         $(card_single_1).bind("click touchstart", function(){
             this.classList.toggle("flipCard");
-         }
+         });
          const card_single_2 = document.getElementById("card-single-2")
-         card_single_2.addEventListener("click", flipCard);
-         function flipCard() {
+         $(card_single_2).on("click touchstart", function(){
             this.classList.toggle("flipCard");
-         }
+         });
       </script>
    </body>
 </html>

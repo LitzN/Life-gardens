@@ -181,14 +181,17 @@
          const card_single = document.getElementById("card-single")
          $(card_single).bind("click touchstart", function(){
             this.classList.toggle("flipCard");
+            return false;
          });
          const card_single_1 = document.getElementById("card-single-1")
          $(card_single_1).bind("click touchstart", function(){
             this.classList.toggle("flipCard");
+            return false;
          });
          const card_single_2 = document.getElementById("card-single-2")
          $(card_single_2).on("click touchstart", function(){
             this.classList.toggle("flipCard");
+            return false;
          });
       </script>
    </body>
